@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(star-wars-space.jpg);
+    background-size: 100% 100vh;
+}
+.bg-dark
+{
+    background:#000; 
+}
+.navbar-nav .nav-link{
+    color:#ffffff !important;
+}
+.navbar-nav{
+    padding-left: 42%;
+}
+.container
+{
+    margin: 0 auto; 
+    max-width: 940px; 
+    padding: 0 10px; 
+    color: #ffffff;
+}
+.header
+{
+    height: 400px; 
+    text-align: center;
+}
+.header h1{
+    color: #ffffff;
+    line-height: 100px;
+    font-size:80px; 
+    margin-top: 0; 
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-family: 'Cutive Mono', monospace;
+    transition: 1s;
+}
+.header h1:hover {
+    font-size: 1000%;
+}
+.header .container
+{
+    position: relative;
+    top:200px; 
+}
+.header p{
+    color: #FFF; 
+    font-weight: 500;
+    letter-spacing: 4px; 
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+a 
+{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block; 
+}
+a:visited
+{
+    color:#293ce2;
+}
+.main{
+    background: #000000;
+}
+.main .container{
+    background: #000000;
+    background-image: url(star-wars-space.jpg);
+    margin: 80px auto;
+}
+.main img{
+    margin: 50px 80px 50px 0px;
+    height:428px;
+    width:65%;
+    border-radius: 55%;
+    float: left;
+    
+}
+.jumbotron
+{
+    height: 600px;
+    background-image: url(star-wars-space.jpg);
+}
+.jumbotron .container
+{
+    position: relative;
+    background-image: url(star-wars-space.jpg); 
+    top: 220px;
+}
+.jumbotron img{
+    margin: 50px 80px 50px 0px;
+    height:428px;
+    width:65%;
+    border-radius: 55%;
+    float: left;
+    
+}
+.jumbotron h2
+{
+    color: #ffffffff;
+    text-align: right;
+}
+.jumbotron p
+{
+    color: #ffffff;
+    text-align: right;
+}
+.jumbotron .btn
+{
+    margin: 10px 0px 0xp;
+    float: right;
+}
